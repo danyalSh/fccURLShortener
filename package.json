@@ -1,0 +1,27 @@
+{
+  "name": "fccurlshortener",
+  "version": "1.0.0",
+  "description": "<h4>Shorten urls and get redirected on request</h4>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timgrossmann/fccURLShortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timgrossmann/fccURLShortener/issues"
+  },
+  "homepage": "https://github.com/timgrossmann/fccURLShortener#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.0"
+  }
+}
